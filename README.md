@@ -1,13 +1,9 @@
 ## Netflix_Content_Buisness_Case
 ## Summary
-This analysis examines a dataset of hourly bicycle rentals spanning from January 1, 2011, to December 19, 2012, containing 10,886 rows and 12 attributes. Key findings indicate no missing or duplicate data. High correlations (>0.9) between 'registered' and 'count' and between 'temp' and 'atemp' suggest 'atemp' can be dropped. Temperature typically ranges from 1 to 41°C, with 80% of rentals occurring below 28°C. Wind speeds generally stay below 30 KMPH, and humidity ranges uniformly between 0% and 100%. 
+The data analysis conducted reveals several key insights that inform the conclusions drawn for content strategy optimization. Firstly, it's established that Drama, Comedy, and International TV Shows/Movies are highly favored genres globally, suggesting a strategic focus on these categories. Moreover, a pattern of optimal content addition emerges, with recommendations to release new TV Shows/Movies in the 1st and 3rd weeks of each month, with particular emphasis on July and December to coincide with holiday seasons. Additionally, aligning regional releases with local holiday periods is advised for enhanced viewership. Targeting countries with high content consumption like the USA and India is pivotal, while exploring emerging markets such as Nicaragua, Dominican Republic, Somalia, Sudan, and Paraguay presents untapped opportunities. Content duration and ratings also play a significant role, with preferences for shorter formats and specific ratings like 'TV-MA' or 'TV-14'. Furthermore, thematic analysis indicates a preference for themes like Love, Christmas, Story, Life, World, Family, Friends, and Adventure, guiding content creation efforts towards broad audience appeal. Lastly, while movie consumption is prevalent, there's an opportunity to capitalize on the TV Show segment, especially in key markets like the USA and India, emphasizing the importance of diverse content offerings and leveraging popular talent for increased viewership.
 
-Insights reveal 80% of casual users rent fewer than 60 bicycles, and 80% of registered users rent fewer than 220. Total rentals stay below 350 for 80% of the time. Most rentals occur during working days (68.1%) with holidays accounting for only 2.9%. Registered users dominate at 81.2%. Rentals peak in summer and fall (60%), with spring being the least favored (15%). Favorable weather conditions account for 70% of rentals.
-
-Recommendations to enhance revenue include targeted marketing in fall and summer, introducing monthly memberships, weather-based promotional offers, and effective maintenance planning during low-demand months. Corporate tie-ups to promote environmental benefits and providing lightweight covers for bicycles during adverse weather conditions are also suggested.
-
-### Correlation Heatmap Analysis
-### Time-Series Analysis
-### Distribution Analysis (Temperature, Wind Speed, Humidity)
-### Statistical Tests (Independent T-Test, Mann-Whitney U Test, Kruskal-Wallis H Test)
-### Chi-Squared Analysis
+1. Genre analysis
+2. Time series analysis
+3. Regional analysis
+4. Content duration analysis
+5. Thematic analysis
